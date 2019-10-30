@@ -1193,7 +1193,7 @@ let ServiceService = class ServiceService {
             let datas = this.http.post(`${this.baseurl}/sendedeletemail`, params);
             return datas;
         };
-        this.baseurl = 'http://localhost:4001/api/v1/users';
+        this.baseurl = '/api/v1/users';
         this.authToken = ng2_cookies_ng2_cookies__WEBPACK_IMPORTED_MODULE_3__["Cookie"].get('authToken');
     }
 };
@@ -1313,7 +1313,7 @@ let SocketService = class SocketService {
             });
             return ak;
         };
-        this.baseUrl = 'http://localhost:4001';
+        this.baseUrl = 'http://13.233.44.251:4001';
         this.socket = socket_io_client__WEBPACK_IMPORTED_MODULE_3___default()(this.baseUrl);
     }
 };

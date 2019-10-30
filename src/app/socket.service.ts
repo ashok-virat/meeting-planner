@@ -10,7 +10,7 @@ export class SocketService {
  public baseUrl: string;
 public socket: any;
   constructor() { 
-    this.baseUrl='http://localhost:4001';
+    this.baseUrl='http://13.233.44.251:4001';
     this.socket=io(this.baseUrl);
   }
 
