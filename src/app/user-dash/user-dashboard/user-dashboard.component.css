@@ -1,0 +1,67 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+img {
+    width:50px;
+}
+.navbar-collapse ul li a{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:15px;
+    border:2px solid white;
+    padding:10px;
+    margin-left:30px;
+    margin-right:30px;
+    border-radius:30px;
+    text-align:center;
+    cursor: pointer;
+    transition:1s;
+}
+.navbar-collapse ul li a:hover {
+    color:red;
+ }
+ #active {
+     text-decoration:underline;
+ }
+.btn-primary {
+    border:1px solid white;
+    background-color:rgb(70, 69, 69);
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header {
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    text-align:center;
+    width:100%;
+    text-shadow:0px 0px 5px white;
+}
+@media only screen and (max-width:990px) {
+    .navbar-collapse ul {
+        text-align:center;
+       width:200px;
+       text-align:center;
+       margin-left:auto;
+       margin-right:auto;
+    }
+    .navbar-collapse ul li {
+    text-align:center;
+       padding:10px;
+        display: block;
+    }
+}
+.page{overflow-y: scroll;
+    overflow-x: hidden;
+    background-color:lightsteelblue}
+
+    .admin {
+        width:100%;
+        text-align:right;
+        margin-top:20px;
+        margin-right:20px;
+    }
+    .fa-user {
+       font-size:20px;
+       text-transform:uppercase;
+       font-weight:600;
+    }

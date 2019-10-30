@@ -1,0 +1,156 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+.container-fluid {
+    background:linear-gradient(to right,white,blue); 
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:auto;
+}
+.header {
+    text-align: center;
+    color:rgb(243, 237, 237);
+    text-transform:uppercase;
+    text-shadow:2px 2px black;
+    font-family:exodus-demo-striped;
+}
+.card {
+    background:linear-gradient(to right,blue,white); 
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:auto;
+   margin-top:30px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:20px;
+}
+
+label {
+    color:white;
+    text-transform:uppercase;
+}
+.btn-primary {
+    border-radius:40px;
+    text-align: center;
+    background:linear-gradient(to right,white,blue);
+    border-color:white;
+    margin-top:10px;
+    width:100px;
+    color:black;
+}
+.btn-alignment {
+    width:100%;
+    text-align:center;
+}
+.btn-primary:hover {
+    background:linear-gradient(to right,blue,white);
+}
+.card-title {
+    color:white;
+    text-align: center;
+    font-size:2rem;
+    text-transform: uppercase;
+}
+.card-body {
+    border-bottom:1px solid white;
+}
+.fa-google-plus {
+    margin-top:20px;
+    background-color:red;
+    padding:10px;
+    border:none;
+    color:white;
+}
+.signup {
+    margin-top:20px;
+    color:white;
+    text-align: center;
+}
+small {
+    text-transform: capitalize;
+}
+.signup a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:1.4rem;
+    padding:10px;
+    cursor: pointer;
+    color:white;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+.signup a:hover {
+    color:black;
+}
+.footer {
+   margin-top:30px;
+   width:100%;
+  }
+  .footer-main-div{
+    width:100%;
+    height:auto;
+    margin:auto;
+    padding:20px 0px;
+  }
+  .footer-social-icons {
+    width:100%;
+    height: auto;
+  }
+  .footer-social-icons ul {
+    margin:0px;
+    padding:0px;
+    text-align: center;
+    list-style-type:none;
+  }
+  .footer-social-icons ul li {
+    display: inline-block;
+    width:50px;
+    height:50px;
+    margin:0px 10px;
+    border-radius:100%;
+    cursor: pointer;
+  }
+  .footer-social-icons ul li a {
+    font-size:25px;
+    color:white;
+  }
+  .footer-social-icons ul li a i {
+    line-height: 30px;
+  }
+  .footer-social-icons ul li a i:hover{
+     color:black;
+  }
+  .footer-social-icons p {
+    color:white;
+    text-align: center;
+  }
+  .loader {
+    text-align: center;
+    border-left:2px solid blue;
+    border-right:2px solid blue;
+    border-bottom:2px solid white;
+    border-top:2px solid white;
+    border-radius:30px;
+    width:30px;
+    margin-left:auto;
+    margin-right: auto;
+    height:30px;
+    animation:rotate 1s infinite linear;
+  }
+
+ @keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.form-control{
+  border-radius:20px;
+}
+.form-control:focus, textarea:focus, select:focus{
+  border-radius:20px;
+  outline:none;
+}
+button:focus {outline:0;}
